@@ -1,5 +1,5 @@
-import { Client } from 'discord.js';
-const client = new Client();
+const Discord = require('discord.js');
+const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log("Meme Boy is Woke again");
@@ -17,4 +17,6 @@ client.on('message', () => {
       message.channel.send("Retreving meme!");
     // Add the API in here!
   };
-})
+});
+
+client.login(process.env.TOKEN);

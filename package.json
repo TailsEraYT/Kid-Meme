@@ -1,0 +1,26 @@
+{
+  "name": "kid-meme",
+  "version": "1.0.0",
+  "description": "Grabs Random Memes from the internet.",
+  "main": "bot.js",
+  "dependencies": {
+    "all": "^0.0.0",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "random-puppy": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "nodejs bot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TailsEraYT/Kid-Meme.git"
+  },
+  "author": "TailsEraYT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TailsEraYT/Kid-Meme/issues"
+  },
+  "homepage": "https://github.com/TailsEraYT/Kid-Meme#readme"
+}

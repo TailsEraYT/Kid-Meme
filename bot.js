@@ -1,5 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+require(".dotenv");
+const prefix = "km!";
 
 client.on('ready', () => {
     console.log("Meme Boy is Woke again");
